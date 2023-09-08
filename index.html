@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hello Bulma!</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  </head>
+  <body>
+
+    <style>
+
+        .hero {
+         background-image: url('./assets/images/sea_cargo.jpg');
+         background-size: cover;
+         background-position: center;
+        }
+        
+        .card-container {
+          display: flex;
+          justify-content: space-between;
+        }
+        
+        .custom-card-size {
+          width: 350px;
+          height: auto
+
+        }
+        </style>
+
+
+<!--Hero-->
+
+    <section class="hero is-fullheight is-primary">
+        
+        <div class="hero-head">
+          <header class="navbar">
+            <div class="container">
+              <div class="navbar-brand">
+                <a class="navbar-item">
+                  <img src="./assets/images/Shiply.png" alt="Logo">
+                </a>
+                <span class="navbar-burger" data-target="navbarMenuHeroC">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </span>
+              </div>
+              <div id="navbarMenuHeroC" class="navbar-menu">
+                <div class="navbar-end">
+                  <a class="navbar-item is-active">
+                    Home
+                  </a>
+                  <a class="navbar-item">
+                    Guide
+                  </a>
+                  <a class="navbar-item">
+                    About
+                  </a>
+                  <span class="navbar-item">
+                    <a class="button is-success is-inverted">
+                      <span class="icon">
+                        <i class="fa-solid fa-download fa-beat"></i>
+                      </span>
+                      <span>Download</span>
+                    </a>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </header>
+        </div>
+        
+        <div class="hero-body">
+          <div class="container has-text-centered">
+            <p class="title has-text-white is-1">
+                Shiply
+            </p>
+            <p class="subtitle has-text-white is-2">
+                Revolutionizing Ship-Supplier Interactions
+            </p>
+          </div>
+        </div>
+        
+        <div class="hero-foot">
+          <nav class="tabs is-boxed is-fullwidth">
+            <div class="container">
+              <ul>
+                <li class="is-active"><a>Features</a></li>
+                <li><a>Benefits</a></li>
+                <li><a>Solutions</a></li>
+                <li><a>Pricing</a></li>
+                <li><a>Support</a></li>
+                <li><a>Resources</a></li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </section>
+
+      <!--/Hero-->
+
+
+      <!--Cards-->
+      <section class="section my-6">
+        <div class="container">
+          <div class="columns">
+            <div class="column is-one-third-desktop is-half-tablet">
+              <div class="card custom-card-size">
+                <header class="card-header">
+                  <p class="card-header-title is-centered">
+                    Powerful Features
+                  </p>
+                </header>
+                <div class="card-image">
+                  <figure class="image is-4by3">
+                    <img src="./assets/images/Powerful_features.jpg" alt="Placeholder image">
+                  </figure>
+                </div>
+                <footer class="card-footer">
+                  <a href="#" class="card-footer-item">Learn More</a>
+                  <a href="#" class="card-footer-item">Get Started</a>
+                </footer>
+              </div>
+            </div>
+      
+            <div class="column is-one-third-desktop is-half-tablet">
+              <div class="card custom-card-size">
+                <header class="card-header">
+                  <p class="card-header-title is-centered">
+                    Benefits for You
+                  </p>
+                </header>
+                <div class="card-image">
+                  <figure class="image is-4by3">
+                    <img src="./assets/images/Benefits_for_you.jpg" alt="Placeholder image">
+                  </figure>
+                </div>
+                <footer class="card-footer">
+                  <a href="#" class="card-footer-item">Explore Benefits</a>
+                  <a href="#" class="card-footer-item">Sign Up Now</a>
+                </footer>
+              </div>
+            </div>
+      
+            <div class="column is-one-third-desktop is-half-tablet">
+              <div class="card custom-card-size">
+                <header class="card-header">
+                  <p class="card-header-title is-centered">
+                    Effective Solutions
+                  </p>
+                </header>
+                <div class="card-image">
+                  <figure class="image is-4by3">
+                    <img src="./assets/images/Effective_Solutions.jpg" alt="Placeholder image">
+                  </figure>
+                </div>
+                <footer class="card-footer">
+                  <a href="#" class="card-footer-item">See Solutions</a>
+                  <a href="#" class="card-footer-item">Contact Us</a>
+                </footer>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+  <!--/Cards-->
+
+
+<!--Ad Section-->
+
+<section class="section is-medium mt-1 mb-6">
+    <div class="container">
+        <div class="columns is-variable is-8 is-vcentered">
+            <div class="column is-half-desktop">
+                <figure class="image is-4by3 s-m-bottom">
+                <img src="./assets/images/support.jpg" title="#" alt="#">
+                </figure>
+                </div>
+                <div class="column is-half-desktop">
+                    <span class="title is-6 has-text-primary has-letter-spacing">Immediate Assistance</span>
+                    <h3 class="title is-size-2-desktop is-size-3-tablet is-size-4-mobile">Our support team is available 24/7</h3>
+                    <p class="b-m-bottom"> We prioritize effective communication to ensure a smooth support experience.
+                         Our team is prompt in responding to your queries,
+                         providing clear and concise information to address your concerns.</p>
+                    <a href="#" class="button is-light is-rounded mt-5" title="Learn more">
+                    <span>Learn more</span>
+                    <span class="icon">
+
+                    </span>
+                    </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--/Ad Section-->
+
+
+<!--Table-->
+
+<section class="section">
+    <div class="container">
+      <h2 class="title">Ships Location</h2>
+      <p>Unveiling our Recent Ventures and Trusted Partnerships.</p>
+      
+      <div class="table-container">
+        <table class="table is-fullwidth is-centered is-striped is-hoverable">
+          <thead>
+            <tr>
+              <th>Ship Name</th>
+              <th>Location</th>
+              <th>Cargo</th>
+              <th>Status</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Ship 1</td>
+              <td>Port A</td>
+              <td>Containers</td>
+              <td>In Transit</td>
+            </tr>
+            <tr>
+              <td>Ship 2</td>
+              <td>Port B</td>
+              <td>Liquid Bulk</td>
+              <td>In Port</td>
+            </tr>
+            <tr>
+              <td>Ship 3</td>
+              <td>Port C</td>
+              <td>Dry Bulk</td>
+              <td>In Transit</td>
+            </tr>
+            <tr>
+              <td>Ship 4</td>
+              <td>Port D</td>
+              <td>container</td>
+              <td>In Port</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      
+      <h2 class="title mt-6">Successful Shipments</h2>
+      <p>Take a look at some of our recent successful shipments.</p>
+      
+      <div class="columns">
+        <div class="column">
+          <div class="card">
+            <div class="card-content mt-6">
+              <p class="title is-5">Shipment 1</p>
+              <p>We successfully delivered a shipment of containers from Port A to Port B. 
+                The cargo arrived in perfect condition.
+                We effectively transport any cargo of valuable goods to its destination.</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="column">
+          <div class="card">
+            <div class="card-content mt-6">
+              <p class="title is-5">Shipment 2</p>
+              <p>We handled a complex shipment of liquid bulk from Port C to Port D. Our experienced team ensured the safe 
+                transportation and delivery of the cargo, exceeding our client's requirements.</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="column">
+          <div class="card">
+            <div class="card-content mt-6">
+              <p class="title is-5">Shipment 3</p>
+              <p>We successfully managed a challenging shipment from Port A to Port B. 
+                Our specialized equipment and efficient logistics ensured a smooth and secure transportation process.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+<!--/Table-->
+
+
+<!--Subscribe Section-->
+
+<hr class="is-divider">
+
+
+<div class="section is-small">
+    <div class="columns">
+      <div class="column">
+        <div class="field">
+          <p class="control">
+            <span class="is-size-4 has-text-weight-bold">We have high standards for emails too.</span>
+          </p>
+        </div>
+      </div>
+      <div class="column">
+        <div class="field has-addons">
+          <div class="control is-expanded">
+            <input class="input is-medium is-hovered" type="email" placeholder="Email">
+          </div>
+          <div class="control">
+            <button class="button is-primary is-medium">Subscribe</button>
+          </div>
+        </div>
+        <div class="field is-grouped mt-4">
+          <p class="control mr-5">
+            <a href="#" class="icon-link has-text-primary">
+              <i class="fab fa-facebook fa-lg"></i>
+            </a>
+          </p>
+          <p class="control mr-5">
+            <a href="#" class="icon-link has-text-primary">
+              <i class="fab fa-instagram fa-lg"></i>
+            </a>
+          </p>
+          <p class="control mr-5">
+            <a href="#" class="icon-link has-text-primary">
+              <i class="fab fa-twitter fa-lg"></i>
+            </a>
+          </p>
+          <p class="control mr-5">
+            <a href="#" class="icon-link has-text-primary">
+              <i class="fab fa-youtube fa-lg"></i>
+            </a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <hr class="is-divider">
+  
+<!--/Subscribe section-->
+
+
+<!--Level-->
+
+<nav class="level is-mobile my-6">
+    <div class="level-item has-text-centered">
+      <div>
+        <p class="heading">Shipments</p>
+        <p class="title">2,345</p>
+      </div>
+    </div>
+    <div class="level-item has-text-centered">
+      <div>
+        <p class="heading">Clients</p>
+        <p class="title">567</p>
+      </div>
+    </div>
+    <div class="level-item has-text-centered">
+      <div>
+        <p class="heading">Partners</p>
+        <p class="title">678</p>
+      </div>
+    </div>
+    <div class="level-item has-text-centered">
+      <div>
+        <p class="heading">Successes</p>
+        <p class="title">2,310</p>
+      </div>
+    </div>
+  </nav>
+
+      <!--/Level-->
+
+
+      <!--Footer-->
+
+<footer class="footer">
+    <div class="content has-text-centered">
+      <p>
+        <strong>Shiply</strong> by <a href="#">OceanLink</a>. All rights reserved.
+      </p>
+    </div>
+  </footer>
+
+      <!--/Footer-->
+
+
+</body>
+</html>
